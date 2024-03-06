@@ -40,6 +40,6 @@ public class ImageController {
             return new ResponseEntity<>(dto, HttpStatus.OK);
 
     }
-//    xx
+
 
 }
