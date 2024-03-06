@@ -62,7 +62,6 @@ public class ImageService {
         return list;
     }
 
-
     private Image dtoToEntity(ImageDto dto){
        return modelMapperConfig.modelMapper().map(dto, Image.class);
     }
